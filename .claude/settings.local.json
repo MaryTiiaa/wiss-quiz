@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\Users\\\\MarinaTschirky\\\\IdeaProjects\\\\privat\\\\wiss\" rev-parse --show-toplevel)",
+      "Bash(git -C \"c:\\\\Users\\\\MarinaTschirky\\\\IdeaProjects\\\\privat\\\\wiss\" branch --show-current)",
+      "Bash(git -C \"c:\\\\Users\\\\MarinaTschirky\\\\IdeaProjects\\\\privat\\\\wiss\" ls-files m294/wiss-quiz)"
+    ]
+  }
+}
