@@ -1,25 +1,48 @@
-import './App.css';
-import Welcome from './Welcome'; // am Anfang — die Komponente importieren
-import Footer from './Footer';
-import Counter from './Counter';
+import { useState } from 'react'; 
+import './App.css'; 
+import Button from './Button'; 
+ 
+const question = { 
+  text: "Welcher Begriff kommt im ICAO-Buchstabieralphabet zuerst?", 
+  answers: ["Alfa", "Bravo", "Charlie"], 
+  correctAnswer: "Alfa" 
+}; 
+ 
+function App() { 
+  const [feedback, setFeedback] = useState(null); 
+  const [score, setScore] = useState(0); 
+   const [isAnswered, setIsAnswered] = useState(false);
+  const handleAnswerClick = (selectedAnswer) => { 
+  setIsAnswered(true); 
+ 
+  if (selectedAnswer === question.correctAnswer) { 
+    setFeedback("Richtig!"); 
+    setScore(score + 1); 
+  } else { 
+    setFeedback(`Falsch! Die richtige Antwort wäre: ${question.correctAnswer}`); 
+  } 
+};
 
- {/* <Welcome /> im JSX — die Komponente verwenden, wie ein eigenes HTML-Tag
-function App() */}
-
-function App() {
-  return (
-    <div>
-      <h1>Willkommwn beim WISS-Quiz!</h1> 
-      <p>Hier wird bald unser Quiz starten.</p> 
-      <Welcome /> 
-      <Counter titel="Punktestand" startwert={0} schritt={1}/>       {/* Vorher: <Counter /> */}
-      <Counter titel="Lebenspunkte" startwert={100} schritt={10}/>    {/* Vorher: <Counter /> */}
-      <Counter titel="Geldbeutel (in CHF)"startwert={500} schritt={50}/>    {/* Vorher: <Counter /> */}
-      <Counter titel="Lautstärke" startwert={5} schritt={1} min={0} max={10} />
-
-      <Footer /> 
-    </div>
-  );
-}
-
-export default App;
+  return ( 
+  <div> 
+    <h1>Willkommen beim WISS-Quiz!</h1> 
+    <p>Punkte: {score}</p> 
+    <h2>{question.text}</h2> 
+ 
+    <div> 
+      {question.answers.map((answer) => (
+        <Button 
+          key={answer} 
+          text={answer} 
+          onClick={() => handleAnswerClick(answer)} 
+          disabled={isAnswered} 
+        />
+      ))} 
+    </div> 
+ 
+    {feedback && <p>{feedback}</p>} 
+  </div> 
+); 
+} 
+ 
+export default App; 
