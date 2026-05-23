@@ -1,0 +1,209 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "category": "Sport",
+      "difficulty": "leicht",
+      "text": "Welches Land hat die meisten FIFA-Weltmeisterschaften gewonnen?",
+      "answers": ["Brasilien", "Italien", "Argentinien", "Deutschland"],
+      "correctAnswer": "Brasilien"
+    },
+    {
+      "id": "2",
+      "category": "Technologie",
+      "difficulty": "leicht",
+      "text": "Was bedeutet die Abkürzung 'HTTP'?",
+      "answers": [
+        "HyperText Transfer Protocol",
+        "HyperText Transmission Protocol",
+        "HyperText Transfer Program",
+        "HyperText Transmission Program"
+      ],
+      "correctAnswer": "HyperText Transfer Protocol"
+    },
+    {
+      "id": "3",
+      "category": "Geographie",
+      "difficulty": "mittel",
+      "text": "Welches ist der höchste Berg gemessen von seiner Unterwasserbasis?",
+      "answers": ["Mount Everest", "Mauna Kea", "K2", "Kangchenjunga"],
+      "correctAnswer": "Mauna Kea"
+    },
+    {
+      "id": "4",
+      "category": "Geschichte",
+      "difficulty": "mittel",
+      "text": "In welchem Jahr wurde die Schweizerische Eidgenossenschaft gegründet?",
+      "answers": ["1291", "1315", "1351", "1499"],
+      "correctAnswer": "1291"
+    },
+    {
+      "id": "5",
+      "category": "Sport",
+      "difficulty": "schwer",
+      "text": "Wieviele Spieler stehen bei einem Cricket Match auf dem Feld?",
+      "answers": ["9", "10", "11", "13"],
+      "correctAnswer": "13"
+    },
+    {
+      "id": "6",
+      "category": "Geographie",
+      "difficulty": "leicht",
+      "text": "Welcher Fluss fliesst durch Wien?",
+      "answers": ["Rhein", "Donau", "Elbe", "Main"],
+      "correctAnswer": "Donau"
+    },
+    {
+      "id": "7",
+      "category": "Geschichte",
+      "difficulty": "mittel",
+      "text": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+      "answers": ["Willy Brandt", "Helmut Schmidt", "Konrad Adenauer", "Ludwig Erhard"],
+      "correctAnswer": "Konrad Adenauer"
+    },
+    {
+      "id": "8",
+      "category": "Sport",
+      "difficulty": "leicht",
+      "text": "Wie viele Spieler einer Mannschaft stehen beim Fussball gleichzeitig auf dem Platz?",
+      "answers": ["10", "11", "12", "9"],
+      "correctAnswer": "11"
+    },
+    {
+      "id": "9",
+      "category": "Technologie",
+      "difficulty": "mittel",
+      "text": "Wofuer steht die Abkuerzung HTML?",
+      "answers": ["HyperText Markup Language", "High Tech Modern Language", "HyperTool Multi Language", "Home Tool Markup Language"],
+      "correctAnswer": "HyperText Markup Language"
+    },
+    {
+      "id": "10",
+      "category": "Geographie",
+      "difficulty": "mittel",
+      "text": "Wie heisst die Hauptstadt von Australien?",
+      "answers": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "id": "11",
+      "category": "Geschichte",
+      "difficulty": "leicht",
+      "text": "In welchem Jahr fiel die Berliner Mauer?",
+      "answers": ["1989", "1987", "1991", "1990"],
+      "correctAnswer": "1989"
+    },
+    {
+      "id": "12",
+      "category": "Sport",
+      "difficulty": "mittel",
+      "text": "In welcher Stadt fanden die Olympischen Sommerspiele 2016 statt?",
+      "answers": ["Tokio", "London", "Peking", "Rio de Janeiro"],
+      "correctAnswer": "Rio de Janeiro"
+    },
+    {
+      "id": "13",
+      "category": "Technologie",
+      "difficulty": "leicht",
+      "text": "Welches Unternehmen entwickelte das Betriebssystem Android?",
+      "answers": ["Microsoft", "Apple", "Google", "Samsung"],
+      "correctAnswer": "Google"
+    },
+    {
+      "id": "14",
+      "category": "Geographie",
+      "difficulty": "schwer",
+      "text": "Welches ist das kleinste Land der Welt?",
+      "answers": ["Monaco", "San Marino", "Liechtenstein", "Vatikanstadt"],
+      "correctAnswer": "Vatikanstadt"
+    },
+    {
+      "id": "15",
+      "category": "Geschichte",
+      "difficulty": "schwer",
+      "text": "In welchem Jahr wurde der Westfaelische Frieden geschlossen?",
+      "answers": ["1618", "1648", "1701", "1763"],
+      "correctAnswer": "1648"
+    },
+    {
+      "id": "16",
+      "category": "Sport",
+      "difficulty": "leicht",
+      "text": "Wie viele Ringe hat das olympische Symbol?",
+      "answers": ["4", "5", "6", "7"],
+      "correctAnswer": "5"
+    },
+    {
+      "id": "17",
+      "category": "Technologie",
+      "difficulty": "schwer",
+      "text": "Wer gilt als Erfinder des World Wide Web?",
+      "answers": ["Tim Berners-Lee", "Vint Cerf", "Linus Torvalds", "Steve Wozniak"],
+      "correctAnswer": "Tim Berners-Lee"
+    },
+    {
+      "id": "18",
+      "category": "Geographie",
+      "difficulty": "mittel",
+      "text": "Welches Land hat die meisten Zeitzonen?",
+      "answers": ["USA", "Russland", "China", "Frankreich"],
+      "correctAnswer": "Frankreich"
+    },
+    {
+      "id": "19",
+      "category": "Geschichte",
+      "difficulty": "mittel",
+      "text": "Welcher roemische Kaiser liess Britannien erobern?",
+      "answers": ["Nero", "Augustus", "Claudius", "Caligula"],
+      "correctAnswer": "Claudius"
+    },
+    {
+      "id": "20",
+      "category": "Sport",
+      "difficulty": "schwer",
+      "text": "Welcher Boxer trat ungeschlagen mit 49 Profisiegen zurueck?",
+      "answers": ["Muhammad Ali", "Mike Tyson", "Rocky Marciano", "Joe Louis"],
+      "correctAnswer": "Rocky Marciano"
+    },
+    {
+      "id": "21",
+      "category": "Technologie",
+      "difficulty": "mittel",
+      "text": "Welche Programmiersprache wurde 1995 von Brendan Eich entwickelt?",
+      "answers": ["Python", "Java", "JavaScript", "Ruby"],
+      "correctAnswer": "JavaScript"
+    },
+    {
+      "id": "22",
+      "category": "Geographie",
+      "difficulty": "schwer",
+      "text": "Welcher Berg ist der zweithoechste der Welt?",
+      "answers": ["Kangchendzoenga", "K2", "Lhotse", "Makalu"],
+      "correctAnswer": "K2"
+    },
+    {
+      "id": "23",
+      "category": "Geschichte",
+      "difficulty": "leicht",
+      "text": "Wer schrieb das Werk Faust?",
+      "answers": ["Friedrich Schiller", "Johann Wolfgang von Goethe", "Heinrich Heine", "Thomas Mann"],
+      "correctAnswer": "Johann Wolfgang von Goethe"
+    },
+    {
+      "id": "24",
+      "category": "Sport",
+      "difficulty": "mittel",
+      "text": "Wie viele Punkte erhaelt man im Basketball fuer einen Wurf von hinter der Dreierlinie?",
+      "answers": ["1", "2", "3", "4"],
+      "correctAnswer": "3"
+    },
+    {
+      "id": "25",
+      "category": "Technologie",
+      "difficulty": "schwer",
+      "text": "Welches Protokoll bildet die Grundlage fuer die Kommunikation im World Wide Web?",
+      "answers": ["FTP", "SMTP", "HTTP", "SSH"],
+      "correctAnswer": "HTTP"
+    }
+  ]
+}

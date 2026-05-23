@@ -44,4 +44,30 @@ describe("GameSession", () => {
 
     expect(screen.getByText(/falsch/i)).toBeInTheDocument();
   });
+
+  it("erhöht den Score bei korrekter Antwort und zeigt ihn am Ende", async () => {
+    const user = userEvent.setup();
+    render(<GameSession questions={mockQuestions} />);
+
+    // Erste Frage richtig beantworten
+    await user.click(screen.getByText("Blau"));
+    await user.click(screen.getByText(/weiter/i));
+
+    // Zweite Frage richtig beantworten
+    await user.click(screen.getByText("8"));
+    await user.click(screen.getByText(/spiel beenden/i));
+
+    // Endergebnis prüfen
+    expect(screen.getByText(/2 von 2/i)).toBeInTheDocument();
+  });
+
+  it("deaktiviert die Antwort-Buttons nach einer Antwort", async () => {
+    const user = userEvent.setup();
+    render(<GameSession questions={mockQuestions} />);
+
+    await user.click(screen.getByText("Blau"));
+
+    expect(screen.getByText("Rot")).toBeDisabled();
+    expect(screen.getByText("Grün")).toBeDisabled();
+  });
 });
