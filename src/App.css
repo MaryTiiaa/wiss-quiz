@@ -186,3 +186,8 @@ body {
     border-right-color: var(--border);
   }
 }
+
+.App-nav a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
