@@ -1,4 +1,4 @@
-function Welcome() {    // Wir definieren eine Funktion Welcome, die JSX zurückgibt
+function Welcome() {    {/* Wir definieren eine Funktion Welcome, die JSX zurückgibt */}
     const username = "Anna";
   return (
     <div>
@@ -8,4 +8,4 @@ function Welcome() {    // Wir definieren eine Funktion Welcome, die JSX zurück
   );
 }
 
-export default Welcome; // Wir exportieren sie mit export default, damit andere Files sie importieren können
+export default Welcome;  {/* Wir exportieren sie mit export default, damit andere Files sie importieren können */}
